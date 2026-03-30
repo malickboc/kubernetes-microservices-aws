@@ -1,0 +1,8 @@
+apiVersion: v1
+Kind: Pod
+metadata:
+  name: webapp
+Spec:
+  containers:
+  - name: webapp
+    image: richardchesterwood/k8s
